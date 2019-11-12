@@ -16,7 +16,7 @@ public class Restart : MonoBehaviour
         }else if (Input.GetKeyDown(KeyCode.M))
         {
             SceneManager.LoadScene("MainMenu");
-            SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive);
+            //SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive);
             //SceneManager.UnloadSceneAsync("SampleScene");
         }
     }
