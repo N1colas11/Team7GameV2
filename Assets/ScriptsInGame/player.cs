@@ -23,6 +23,11 @@ public class player : MonoBehaviour
     {
         healthDisplay.text = health.ToString();
 
+        if(health >= 5)     //Max of 5 HP
+        {
+            health = 5;
+        }
+
         if (health <= 0)
         {
             gameOver.SetActive(true);
